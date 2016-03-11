@@ -1,0 +1,17 @@
+<template name="projectThumbnail">
+    <div class="project-thumbnail panel panel-default">
+        <div class="panel-heading">
+            <h2 class="panel-title"><a href="{{pathFor 'projectPage'}}">{{heading}}</a></h2>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-4">(image)</div>
+                <div class="col-md-8">
+                    <p><b>Start date:</b> {{startDate}}<br>
+                    <b>Complete date:</b> {{completeDate}}<br>
+                    <b>Summary:</b> {{shortDesc}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
