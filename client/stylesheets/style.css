@@ -1,0 +1,11 @@
+.navbar.navbar-static-top {
+    background-color: darkblue;
+}
+
+.project-image-thumb {
+    height: 150px;
+    width: 150px;
+    background-color: #666666;
+    float: left;
+    margin: 0 10px 10px 0;
+}

@@ -9,4 +9,12 @@ if (Projects.find().count() === 0) {
         shortDesc: 'This is a short summary.',
         longDesc: 'This is a longer description.'
     });
+
+    Projects.insert({
+        heading: 'Test Project 2',
+        startDate: '03-03-2016',
+        completeDate: '04-04-2016',
+        shortDesc: 'This is a short summary of a second project.',
+        longDesc: 'This is a longer description of a second project.'
+    });
 };
