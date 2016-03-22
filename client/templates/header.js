@@ -3,10 +3,19 @@
  */
 Template.header.helpers({
     curPort: function() {
-        var current = Session.get("currentPortfolio");
-        if(current)
-            return current + "'s ";
-        else
-            return "";
+        var portfolioId = Session.get('portfolioId');
+        var name = "";
+
+        if (portfolioId !== "") {
+            var user = Meteor.users.findOne({_id: portfolioId});
+
+            if (user.profile.hasOwnProperty('firstName') && user.profile.hasOwnProperty('lastName')) {
+                name = user.profile.firstName + " " + user.profile.lastName + "'s ";
+            } else {
+                name = user.username + "'s ";
+            }
+        }
+
+        return name;
     }
 });
