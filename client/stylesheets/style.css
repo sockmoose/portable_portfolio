@@ -9,3 +9,9 @@
     float: left;
     margin: 0 10px 10px 0;
 }
+
+.project-image-full {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+}

@@ -12,10 +12,11 @@
             </div>
             <div class="collapse navbar-collapse" id="collapse_target">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#">{{curPort}}Home</a></li>
                     <li><a href="{{pathFor 'projectsList'}}">Projects</a></li>
                     <li><a href="#">Resume</a></li>
                     <li><a href="#">Contact</a></li>
+                    {{> loginButtons}}
                 </ul>
             </div>
         </div>
