@@ -16,12 +16,12 @@
     margin: auto;
 }
 
-.navbar.navbar-static-top .container-fluid .nav.navbar-nav a {
+.navbar.navbar-static-top .container-fluid .nav.navbar-nav li > a {
     color: #dddddd;
     font-weight: bold;
 }
 
-.navbar.navbar-static-top .container-fluid .nav.navbar-nav a:hover {
+.navbar.navbar-static-top .container-fluid .nav.navbar-nav li > a:hover {
     color: #ffffff;
     font-weight: bold;
 }
