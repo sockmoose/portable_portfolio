@@ -8,9 +8,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{pathFor 'homePage'}}">Portable Portfolio</a>
+                <a class="navbar-brand" href="{{pathFor 'homePage'}}"><span class="glyphicon glyphicon-briefcase"></span> Portable Portfolio</a>
             </div>
             <div class="collapse navbar-collapse" id="collapse_target">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Find a portfolio">
+                        <span class="input-group-btn">
+                            <button class="btn btn-info" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </form>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">{{curPort}}Home</a></li>
                     <li><a href="{{pathFor 'projectsList'}}">Projects</a></li>
