@@ -5,23 +5,41 @@ Template.projectSubmit.helpers({
 
 });
 
-var getDaysInMonth = function(month) {
+var getDaysInMonth = function(month, year) {
     var days = 31;
 
     if (month === "April" || month === "June" || month === "September" || month === "November") {
         days = 30;
     } else if (month === "February") {
-        days = 28;
+        if (year % 4 === 0) {
+            days = 29;
+        } else {
+            days = 28;
+        }
     }
 
     return days;
 };
 
 Template.projectSubmit.events({
-    'change .month-selector': function(e) { // Change the day options available when the month changes
+    'change .month-selector, change .year-selector': function(e) { // Change the day options available when the month changes
         var target = e.currentTarget,
-            days = getDaysInMonth(target.value),
-            dayOptions = "";
+            dayOptions = "",
+            days = 0,
+            month = "",
+            year = 0;
+
+        if (target.classList.contains("month-selector")) {
+            console.log("Month selector was changed.");
+            month = target.value;
+            year = $(target).siblings(".year-selector").val();
+        } else {
+            console.log("Year selector was changed.");
+            year = target.value;
+            month = $(target).siblings(".month-selector").val();
+        }
+
+        days = getDaysInMonth(month, year);
 
         $(target).siblings(".day-selector").html(function() {
             for (var i=1; i<=days; i++) {
