@@ -1,0 +1,55 @@
+<template name="projectSubmit">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h1 class="panel-title">New Project</h1>
+                    </div>
+                    <div class="panel-body">
+                        <form class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="heading">Heading:</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control input-lg" name="heading" id="heading" placeholder="The title of your project" required>
+                                </div>
+                            </div>
+                            <div class="form-group form-inline">
+                                <label class="control-label col-sm-2" for="startDate">Start Date:</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control month-selector" name="startMonth"></select>
+                                    <select class="form-control day-selector" name="startDay"></select>
+                                    <select class="form-control year-selector" name="startYear"></select>
+                                </div>
+                            </div>
+                            <div class="form-group form-inline">
+                                <label class="control-label col-sm-2" for="completeDate">Complete Date:</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control month-selector" name="completeMonth"></select>
+                                    <select class="form-control day-selector" name="completeDay"></select>
+                                    <select class="form-control year-selector" name="completeYear"></select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="summary">Summary:</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" rows="3" name="summary" id="summary" placeholder="A brief summary of your project" required></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-2" for="description">Description:</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" rows="10" name="description" id="description" placeholder="A full description of your project" required></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-primary">Create Project</button>
+                                <button type="button" class="btn btn-default">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
