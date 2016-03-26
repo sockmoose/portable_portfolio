@@ -5,6 +5,10 @@ Meteor.publish('projects', function() {
     return Projects.find();
 });
 
+Meteor.publish('portfolio', function() {
+    return Portfolio.find();
+});
+
 Meteor.publish('usernames', function() {
     return Meteor.users.find({}, {fields: {'username': 1}});
 });

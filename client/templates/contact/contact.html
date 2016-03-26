@@ -1,17 +1,7 @@
-<template name="projectThumbnail">
+<template name="contact">
     <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-            <div class="project-thumbnail panel panel-default">
-                <div class="panel-heading">
-                    <h2>Contact Info for {{fName}} {{lName}}</h2>
-                </div>
-                <div class="panel-body">
-                    <div class="project-image-thumb"></div>
-                    <p><b>Start date:</b> {{startDate}}<br>
-                        <b>Complete date:</b> {{completeDate}}<br>
-                        <b>Summary:</b> {{shortDesc}}</p>
-                </div>
-            </div>
-        </div>
+        {{#each portfolio}}
+            {{>contactItem}}
+        {{/each}}
     </div>
 </template>
