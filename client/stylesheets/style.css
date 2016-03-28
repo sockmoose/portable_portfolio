@@ -33,3 +33,11 @@
 .navbar a:link, .navbar a:visited {
     color: #dddddd;
 }
+
+.button {
+    background-color: darkblue;
+    color: white;
+    position: absolute;
+    left:60%;
+    margin-bottom: 50px;
+}

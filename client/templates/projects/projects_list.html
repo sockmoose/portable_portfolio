@@ -3,5 +3,8 @@
         {{#each projects}}
             {{> projectThumbnail}}
         {{/each}}
+        <form action="{{pathFor 'projectSubmit'}}">
+            <input class="button" type="submit" value="Submit New Project">
+        </form>
     </div>
 </template>

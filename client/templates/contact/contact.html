@@ -1,0 +1,10 @@
+<template name="contact">
+    <div class="row">
+        {{#each portfolio}}
+            {{>contactItem}}
+        {{/each}}
+    </div>
+    <form action="{{pathFor 'editContact'}}">
+        <input class="button" type="submit" value="Update Contact Info">
+    </form>
+</template>
