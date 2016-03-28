@@ -1,0 +1,43 @@
+.navbar.navbar-static-top {
+    background-color: darkblue;
+}
+
+.project-image-thumb {
+    height: 150px;
+    width: 150px;
+    background-color: #666666;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.project-image-full {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+}
+
+.navbar.navbar-static-top .container-fluid .nav.navbar-nav li > a {
+    color: #dddddd;
+    font-weight: bold;
+}
+
+.navbar.navbar-static-top .container-fluid .nav.navbar-nav li > a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar.navbar-static-top .container-fluid .navbar-header a {
+    font-size: 25px;
+}
+
+.navbar a:link, .navbar a:visited {
+    color: #dddddd;
+}
+
+.button {
+    background-color: darkblue;
+    color: white;
+    position: absolute;
+    left:60%;
+    margin-bottom: 50px;
+}
