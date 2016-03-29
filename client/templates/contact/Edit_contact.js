@@ -7,6 +7,8 @@ Template.editContact.events(
         e.preventDefault();
 
         var deets = {
+            fName: $(e.target).find('[name=fName]').val(),
+            lName: $(e.target).find('[name=lName]').val(),
             email: $(e.target).find('[name=email]').val(),
             phone: $(e.target).find('[name=phoneNumber]').val(),
             twitter: $(e.target).find('[name=twitter]').val()

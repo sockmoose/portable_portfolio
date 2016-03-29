@@ -11,11 +11,11 @@
                 <a class="navbar-brand" href="{{pathFor 'homePage'}}"><span class="glyphicon glyphicon-briefcase"></span> Portable Portfolio</a>
             </div>
             <div class="collapse navbar-collapse" id="collapse_target">
-                <form class="navbar-form navbar-left" role="search">
+                <form class="navbar-form navbar-left" role="search" action="{{pathFor 'searchResults'}}">
                     <div class="input-group">
                         <input type="text" name="search" class="form-control" placeholder="Find a portfolio">
                         <span class="input-group-btn">
-                            <button class="btn btn-info" type="button">
+                            <button class="btn btn-info" type="submit">
                                 <span class="glyphicon glyphicon-search"></span>
                             </button>
                         </span>

@@ -1,0 +1,11 @@
+<template name="searchResults">
+    {{#with terms}}
+        {{#each results}}
+            {{> oneResult}}
+        {{/each}}
+    {{/with}}
+</template>
+
+<template name="oneResult">
+    <a href="/portfolios/userHome/{{username}}">{{fName}} {{lName}} ({{username}})</a><br>
+</template>
