@@ -15,8 +15,7 @@ Template.editContact.events(
                 if (error) return alert(error.reason);
                 alert("update Successful");
                 Router.go('contact');
-            }
-        )
+        })
     },
     'click .cancel': function (){
         Router.go('contact');

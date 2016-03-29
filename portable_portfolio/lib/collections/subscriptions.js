@@ -4,6 +4,7 @@
 if (Meteor.isClient) {
     Meteor.subscribe('usernames');
     Meteor.subscribe('contact');
+    Meteor.subscribe('resume');
 
     Tracker.autorun(function() {
         Meteor.subscribe('currentProfile', Session.get('portfolioId'));

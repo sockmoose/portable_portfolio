@@ -14,6 +14,11 @@ Router.configure({
     loadingTemplate: 'loading',
     waitOn: function() { return Meteor.subscribe('projects'); }
 });
+//imput a portfolio Identifier
+Router.route('/portfolios/userHome/:username', {
+    name: 'PortfolioAccess',
+    template: 'userHome'
+});
 
 //Site home
 Router.route('/', {
@@ -39,7 +44,7 @@ Router.route('projects/projectSubmit', {
 //Individual project page
 Router.route('/projects/portfolio/:_id', {
     name: 'projectPage',
-    data: function() {return Projects.findOne(this.params._id)}
+    data: function() {return Projects.findOne(this.params._id); }
 });
 //contact page
 Router.route('/contact' , {

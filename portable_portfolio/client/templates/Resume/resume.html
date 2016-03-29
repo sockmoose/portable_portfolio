@@ -1,6 +1,5 @@
 <template name="resume">
-<form>
-    <textarea id="edit" name="content"></textarea>
-    <div id="froala-editor"></div>
-</form>
+    {{#each getCollectionDocuments}}
+        {{> froalaReactive _onblur=doSave _value=content _oninitialized=doFill}}
+    {{/each}}
 </template>
