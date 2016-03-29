@@ -9,6 +9,10 @@ Meteor.publish('contact', function() {
     return Contact.find();
 });
 
+Meteor.publish('resume', function() {
+    return Resume.find();
+});
+
 Meteor.publish('usernames', function() {
     return Meteor.users.find({}, {fields: {'username': 1}});
 });
@@ -16,3 +20,4 @@ Meteor.publish('usernames', function() {
 Meteor.publish('currentProfile', function(id) {
     return Meteor.users.find({_id: id}, {fields: {'profile': 1}});
 });
+

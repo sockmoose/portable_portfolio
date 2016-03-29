@@ -55,3 +55,9 @@ if (Contact.find().count() === 0){
         twitter: '@hiem86'
     });
 };
+if (Resume.find().count() === 0){
+    Resume.insert({
+        portfolioId: 'm84SdSrs5GuNQ492T',
+        content: ''
+    });
+}

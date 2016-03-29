@@ -19,6 +19,16 @@ Meteor.methods({
 
         Contact.remove({portfolioId: user._id});
         Contact.insert(contact);
+    },
+    resumeUpdate: function(self,HTML) {
+        Resume.update({_id: self._id},
+            {$set: {content: HTML}}
+        )
+    },
+    resumeInsert: function() {
+        return Resume.insert({
+            portfolioId: Meteor.userId(),
+            content: 'stub'
+        });
     }
-
 });

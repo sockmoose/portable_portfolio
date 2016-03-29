@@ -51,11 +51,9 @@ Template.projectSubmit.events({
             year = 0;
 
         if (target.classList.contains("month-selector")) {
-            console.log("Month selector was changed.");
             month = target.value;
             year = $(target).siblings(".year-selector").val();
         } else {
-            console.log("Year selector was changed.");
             year = target.value;
             month = $(target).siblings(".month-selector").val();
         }
