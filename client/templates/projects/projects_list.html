@@ -4,9 +4,13 @@
             {{> projectThumbnail}}
         {{/each}}
         {{#if isAdmin}}
-        <form action="{{pathFor 'projectSubmit'}}">
-            <button class="btn btn-primary" type="submit">Submit New Project</button>
-        </form>
+        <div class="row">
+            <div class="col-sm-3 col-sm-offset-3">
+                <form action="{{pathFor 'projectSubmit'}}">
+                    <button class="btn btn-primary" type="submit">Submit New Project</button>
+                </form>
+            </div>
+        </div>
         {{/if}}
     </div>
 </template>

@@ -5,8 +5,12 @@
         {{/each}}
     </div>
     {{#if isAdmin}}
-    <form action="{{pathFor 'editContact'}}">
-        <button class="btn btn-primary" type="submit">Update Contact Info</button>
-    </form>
+    <div class="row">
+        <div class="col-sm-3 col-sm-offset-3">
+            <form action="{{pathFor 'editContact'}}">
+                <button class="btn btn-primary" type="submit">Update Contact Info</button>
+            </form>
+        </div>
+    </div>
     {{/if}}
 </template>
