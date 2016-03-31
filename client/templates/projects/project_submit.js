@@ -22,26 +22,32 @@ var getDaysInMonth = function(month, year) {
 };
 
 Template.projectSubmit.events({
-    'submit form': function(e){
+    'submit form': function(e) {
         e.preventDefault();
-        var st =  $(e.target).find('[name=startMonth]').val() + " " + $(e.target).find('[name=startDay]').val() + ", " +
+
+        // Check if dates are valid
+        var st = $(e.target).find('[name=startMonth]').val() + " " + $(e.target).find('[name=startDay]').val() + ", " +
             $(e.target).find('[name=startYear]').val();
 
-        var cd =  $(e.target).find('[name=completeMonth]').val() + " " + $(e.target).find('[name=completeDay]').val() +
+        var cd = $(e.target).find('[name=completeMonth]').val() + " " + $(e.target).find('[name=completeDay]').val() +
             ", " + $(e.target).find('[name=completeYear]').val();
 
-        var project =    {
-            heading: $(e.target).find('[name=heading]').val(),
-            summary: $(e.target).find('[name=summary]').val(),
-            description: $(e.target).find('[name=description]').val(),
-            startDate: st,
-            completeDate: cd
-        };
-            Meteor.call('ProjectInsert', project, function(error, result) {
+        if (Date.parse(st) > Date.parse(cd)) {
+            alert("Start date must be earlier than complete date!");
+        } else {
+            var project = {
+                heading: $(e.target).find('[name=heading]').val(),
+                summary: $(e.target).find('[name=summary]').val(),
+                description: $(e.target).find('[name=description]').val(),
+                startDate: st,
+                completeDate: cd
+            };
+            Meteor.call('ProjectInsert', project, function (error, result) {
                 if (error) return alert(error.reason);
                 Router.go('projectPage', {_id: result});
-            }
-        )},
+            });
+        }
+    },
 
     'change .month-selector, change .year-selector': function(e) { // Change the day options available when the month changes
         var target = e.currentTarget,

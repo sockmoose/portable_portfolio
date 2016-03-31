@@ -6,7 +6,7 @@ Template.searchResults.helpers({
         console.log(this.search);
         var terms = this.search.split(" ");
 
-        return Contact.find({ $or: [{fName: { $in: terms }},{lName: { $in: terms }},{email: { $in: terms }}]});
+        return Contact.find({ $or: [{fName: { $in: terms }},{lName: { $in: terms }}]});
     }
 });
 
