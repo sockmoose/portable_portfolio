@@ -1,8 +1,8 @@
 <template name="contact">
     <div class="row">
-        {{#each portfolio}}
+        {{#with portfolio}}
             {{>contactItem}}
-        {{/each}}
+        {{/with}}
     </div>
     {{#if isAdmin}}
     <div class="row">
