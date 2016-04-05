@@ -42,6 +42,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/portable_portfolio.iml" afterPath="$PROJECT_DIR$/.idea/portable_portfolio.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/.finished-upgraders" afterPath="$PROJECT_DIR$/.meteor/.finished-upgraders" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/release" afterPath="$PROJECT_DIR$/.meteor/release" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/contact/Edit_contact.html" afterPath="$PROJECT_DIR$/client/templates/contact/Edit_contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/contact/Edit_contact.js" afterPath="$PROJECT_DIR$/client/templates/contact/Edit_contact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/contact/contact.html" afterPath="$PROJECT_DIR$/client/templates/contact/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/contact/contact.js" afterPath="$PROJECT_DIR$/client/templates/contact/contact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/router.js" afterPath="$PROJECT_DIR$/lib/router.js" />
     </list>
     <ignored path="portable_portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,52 +79,9 @@
               <folding />
             </state>
           </provider>
-              <folding />
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="router.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-              <folding>
-                <marker date="1459740351712" expanded="true" signature="1336:1338" placeholder="{&quot;name&quot;: 'resume'...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode />
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/client/templates/contact/Contact_Item.html" />
-        <option value="$PROJECT_DIR$/client/templates/projects/projects_list.js" />
-        <option value="$PROJECT_DIR$/client/templates/home/home_page.js" />
-        <option value="$PROJECT_DIR$/lib/accounts.js" />
-        <option value="$PROJECT_DIR$/client/templates/header.js" />
-        <option value="$PROJECT_DIR$/client/templates/application/loading.html" />
-        <option value="$PROJECT_DIR$/client/templates/projects/project_page.html" />
-        <option value="$PROJECT_DIR$/server/publications.js" />
-        <option value="$PROJECT_DIR$/server/test_data.js" />
-        <option value="$PROJECT_DIR$/server/methods.js" />
         <entry file="file://$PROJECT_DIR$/lib/router.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -619,8 +584,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-=======
     <entry file="file://$PROJECT_DIR$/client/templates/application/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -635,7 +598,6 @@
         </state>
       </provider>
     </entry>
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
     <entry file="file://$PROJECT_DIR$/client/templates/contact/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -648,6 +610,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -703,6 +666,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -762,6 +726,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -793,8 +758,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-=======
     <entry file="file://$PROJECT_DIR$/client/templates/application/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -802,7 +765,6 @@
         </state>
       </provider>
     </entry>
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
     <entry file="file://$PROJECT_DIR$/client/templates/application/loading.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -859,60 +821,30 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/client/templates/projects/projects_list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/contact/Edit_contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28052804">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding />
-=======
     <entry file="file://$PROJECT_DIR$/client/templates/application/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="13" column="105" selection-start-line="13" selection-start-column="105" selection-end-line="13" selection-end-column="105" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/search/search_results.js">
+    <entry file="file://$PROJECT_DIR$/client/templates/projects/projects_list.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.22442244">
-          <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
-=======
         <state relative-caret-position="0">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/projects/project_submit.js">
+    <entry file="file://$PROJECT_DIR$/server/methods.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.19636963">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-=======
         <state relative-caret-position="340">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/contact/contact.js">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
-=======
         <state relative-caret-position="850">
           <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
           <folding>
@@ -923,72 +855,26 @@
             <marker date="1459738646393" expanded="true" signature="638:661" placeholder="{...}" />
             <marker date="1459738646393" expanded="true" signature="671:787" placeholder="{...}" />
           </folding>
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/projects/project_submit.html">
+    <entry file="file://$PROJECT_DIR$/client/templates/search/search_results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63448274">
-          <caret line="46" column="83" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/Resume/resume.html">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.11724138">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/projects/project_thumbnail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-=======
         <state relative-caret-position="0">
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/client/templates/contact/Edit_contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5810345">
-          <caret line="37" column="127" selection-start-line="37" selection-start-column="127" selection-end-line="37" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/contact/Contact_Item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2637931">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-=======
     <entry file="file://$PROJECT_DIR$/client/templates/search/search_results.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="8" column="87" selection-start-line="8" selection-start-column="87" selection-end-line="8" selection-end-column="87" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/projects/projects_list.html">
+    <entry file="file://$PROJECT_DIR$/client/templates/projects/project_submit.js">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/contact/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-=======
         <state relative-caret-position="0">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
         </state>
@@ -998,45 +884,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="46" column="83" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/Resume/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="34" />
-=======
         <state relative-caret-position="0">
           <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/lib/collections/subscriptions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-=======
     <entry file="file://$PROJECT_DIR$/client/templates/projects/project_thumbnail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7948276">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-=======
     <entry file="file://$PROJECT_DIR$/client/templates/projects/projects_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1051,60 +918,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/client/templates/search/search_results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-=======
     <entry file="file://$PROJECT_DIR$/client/templates/home/home_page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/client/templates/application/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05862069">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-=======
     <entry file="file://$PROJECT_DIR$/lib/collections/subscriptions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="21" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/._main.html">
+    <entry file="file://$PROJECT_DIR$/client/templates/contact/Contact_Item.html">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
         <state relative-caret-position="153">
           <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/client/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
     <entry file="file://$PROJECT_DIR$/client/templates/contact/contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1117,28 +958,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="32" column="153" selection-start-line="32" selection-start-column="153" selection-end-line="32" selection-end-column="153" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/methods.js">
+    <entry file="file://$PROJECT_DIR$/client/templates/contact/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/application/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029310346">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-=======
         <state relative-caret-position="68">
           <caret line="4" column="17" selection-start-line="2" selection-start-column="5" selection-end-line="4" selection-end-column="17" />
->>>>>>> 9eed3ef75c5d9cd0fdc8a162d86bb2b6f63d9507
           <folding />
         </state>
       </provider>
